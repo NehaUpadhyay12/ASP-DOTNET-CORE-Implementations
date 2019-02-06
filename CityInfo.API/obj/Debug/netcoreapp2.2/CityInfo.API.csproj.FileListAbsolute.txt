@@ -1,0 +1,30 @@
+/Users/nehaupadhyay/Neha_Stuff/Study_Material/ASP.net Core/CityInfo.API/bin/Debug/netcoreapp2.2/nlog.config
+/Users/nehaupadhyay/Neha_Stuff/Study_Material/ASP.net Core/CityInfo.API/bin/Debug/netcoreapp2.2/CityInfo.API.deps.json
+/Users/nehaupadhyay/Neha_Stuff/Study_Material/ASP.net Core/CityInfo.API/bin/Debug/netcoreapp2.2/CityInfo.API.runtimeconfig.json
+/Users/nehaupadhyay/Neha_Stuff/Study_Material/ASP.net Core/CityInfo.API/bin/Debug/netcoreapp2.2/CityInfo.API.runtimeconfig.dev.json
+/Users/nehaupadhyay/Neha_Stuff/Study_Material/ASP.net Core/CityInfo.API/bin/Debug/netcoreapp2.2/CityInfo.API.dll
+/Users/nehaupadhyay/Neha_Stuff/Study_Material/ASP.net Core/CityInfo.API/bin/Debug/netcoreapp2.2/CityInfo.API.pdb
+/Users/nehaupadhyay/Neha_Stuff/Study_Material/ASP.net Core/CityInfo.API/obj/Debug/netcoreapp2.2/CityInfo.API.csproj.CoreCompileInputs.cache
+/Users/nehaupadhyay/Neha_Stuff/Study_Material/ASP.net Core/CityInfo.API/obj/Debug/netcoreapp2.2/CityInfo.API.RazorAssemblyInfo.cache
+/Users/nehaupadhyay/Neha_Stuff/Study_Material/ASP.net Core/CityInfo.API/obj/Debug/netcoreapp2.2/CityInfo.API.RazorAssemblyInfo.cs
+/Users/nehaupadhyay/Neha_Stuff/Study_Material/ASP.net Core/CityInfo.API/obj/Debug/netcoreapp2.2/CityInfo.API.AssemblyInfoInputs.cache
+/Users/nehaupadhyay/Neha_Stuff/Study_Material/ASP.net Core/CityInfo.API/obj/Debug/netcoreapp2.2/CityInfo.API.AssemblyInfo.cs
+/Users/nehaupadhyay/Neha_Stuff/Study_Material/ASP.net Core/CityInfo.API/obj/Debug/netcoreapp2.2/CityInfo.API.RazorTargetAssemblyInfo.cache
+/Users/nehaupadhyay/Neha_Stuff/Study_Material/ASP.net Core/CityInfo.API/obj/Debug/netcoreapp2.2/CityInfo.API.dll
+/Users/nehaupadhyay/Neha_Stuff/Study_Material/ASP.net Core/CityInfo.API/obj/Debug/netcoreapp2.2/CityInfo.API.pdb
+/Users/nehaupadhyay/Neha_Stuff/Study_Material/ASP.net Core/CityInfo.API/obj/Debug/netcoreapp2.2/CityInfo.API.csprojAssemblyReference.cache
+/Users/nehaupadhyay/Neha_Stuff/Study_Material/ASP.net_Core/CityInfo.API/bin/Debug/netcoreapp2.2/nlog.config
+/Users/nehaupadhyay/Neha_Stuff/Study_Material/ASP.net_Core/CityInfo.API/bin/Debug/netcoreapp2.2/CityInfo.API.deps.json
+/Users/nehaupadhyay/Neha_Stuff/Study_Material/ASP.net_Core/CityInfo.API/bin/Debug/netcoreapp2.2/CityInfo.API.runtimeconfig.json
+/Users/nehaupadhyay/Neha_Stuff/Study_Material/ASP.net_Core/CityInfo.API/bin/Debug/netcoreapp2.2/CityInfo.API.runtimeconfig.dev.json
+/Users/nehaupadhyay/Neha_Stuff/Study_Material/ASP.net_Core/CityInfo.API/bin/Debug/netcoreapp2.2/CityInfo.API.dll
+/Users/nehaupadhyay/Neha_Stuff/Study_Material/ASP.net_Core/CityInfo.API/bin/Debug/netcoreapp2.2/CityInfo.API.pdb
+/Users/nehaupadhyay/Neha_Stuff/Study_Material/ASP.net_Core/CityInfo.API/obj/Debug/netcoreapp2.2/CityInfo.API.csproj.CoreCompileInputs.cache
+/Users/nehaupadhyay/Neha_Stuff/Study_Material/ASP.net_Core/CityInfo.API/obj/Debug/netcoreapp2.2/CityInfo.API.RazorAssemblyInfo.cache
+/Users/nehaupadhyay/Neha_Stuff/Study_Material/ASP.net_Core/CityInfo.API/obj/Debug/netcoreapp2.2/CityInfo.API.RazorAssemblyInfo.cs
+/Users/nehaupadhyay/Neha_Stuff/Study_Material/ASP.net_Core/CityInfo.API/obj/Debug/netcoreapp2.2/CityInfo.API.AssemblyInfoInputs.cache
+/Users/nehaupadhyay/Neha_Stuff/Study_Material/ASP.net_Core/CityInfo.API/obj/Debug/netcoreapp2.2/CityInfo.API.AssemblyInfo.cs
+/Users/nehaupadhyay/Neha_Stuff/Study_Material/ASP.net_Core/CityInfo.API/obj/Debug/netcoreapp2.2/CityInfo.API.RazorTargetAssemblyInfo.cache
+/Users/nehaupadhyay/Neha_Stuff/Study_Material/ASP.net_Core/CityInfo.API/obj/Debug/netcoreapp2.2/CityInfo.API.dll
+/Users/nehaupadhyay/Neha_Stuff/Study_Material/ASP.net_Core/CityInfo.API/obj/Debug/netcoreapp2.2/CityInfo.API.pdb
+/Users/nehaupadhyay/Neha_Stuff/Study_Material/ASP.net_Core/CityInfo.API/obj/Debug/netcoreapp2.2/CityInfo.API.csprojAssemblyReference.cache

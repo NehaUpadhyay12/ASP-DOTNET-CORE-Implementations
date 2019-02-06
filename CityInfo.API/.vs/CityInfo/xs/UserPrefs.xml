@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{B262D076-553E-4DC6-BFC8-9DC0E2851A7C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CityInfoContextExtension.cs">
+    <Files>
+      <File FileName="Startup.cs" Line="69" Column="1" />
+      <File FileName="CityInfoContextExtension.cs" Line="16" Column="24" />
+      <File FileName="Models/CityDto.cs" Line="20" Column="6" />
+      <File FileName="Entities/City.cs" Line="19" Column="61" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.CityInfo.API PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/nehaupadhyay/Neha_Stuff/Study_Material/ASP.net_Core/CityInfo.API/Startup.cs" relfile="Startup.cs" line="33" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
