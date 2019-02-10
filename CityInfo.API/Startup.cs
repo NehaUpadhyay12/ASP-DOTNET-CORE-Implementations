@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using CityInfo.API.Entities;
+using CityInfo.API.Models;
 using CityInfo.API.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -48,6 +49,8 @@ namespace CityInfo.API
 
             var connectionString = @"Server=localhost,1433\\Database=CityInfoDB;;User=sa;Password=strong@123;";
             services.AddDbContext<CityInfoContext>(o => o.UseSqlServer(connectionString));
+
+            services.AddScoped<ICityInfoRepository, CityInfoRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -61,8 +64,15 @@ namespace CityInfo.API
             {
                 app.UseDeveloperExceptionPage();
             }
-            context.EnsureSeedDataForContext();
+            //context.EnsureSeedDataForContext();
             app.UseStatusCodePages();
+
+            AutoMapper.Mapper.Initialize(c =>
+            {
+                c.CreateMap<City, CityWithoutPointsOfInterestDto>();
+                c.CreateMap<City, CityDto>();
+                c.CreateMap<PointOfInterest, PointsOfInterestDto>();
+            });
             app.UseMvc();
             //app.Run(async (context) =>
             //{

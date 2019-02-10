@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using AutoMapper;
 using CityInfo.API.Models;
+using CityInfo.API.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CityInfo.API.Controllers
@@ -9,26 +11,31 @@ namespace CityInfo.API.Controllers
     [Route("api")]
     public class CitiesController : Controller
     {
-        public CitiesController()
+        private ICityInfoRepository _cityInfoRepo;
+        public CitiesController(ICityInfoRepository cityInfoRepo)
         {
+            _cityInfoRepo = cityInfoRepo;
         }
 
         [HttpGet("cities")]
         public IActionResult GetCities()
         {
-            return Ok(new JsonResult(CitiDataStore.Current.Cities));
+            var cities = _cityInfoRepo.GetCities();
+            var results = Mapper.Map<IEnumerable<CityWithoutPointsOfInterestDto>>(cities);
+            return Ok(results);
 
         }
 
         [HttpGet("cities/{id}")]
         public IActionResult GetCity(int id)
         {
-            var city =  CitiDataStore.Current.Cities.FirstOrDefault(x => x.Id == id); 
+            var city =  _cityInfoRepo.GetCity(id, true); 
             if(city == null)
             {
                 return NotFound();
             }
-            return Ok(city);
+            var result = Mapper.Map<CityDto>(city);
+            return Ok(result);
         }
 
     }
